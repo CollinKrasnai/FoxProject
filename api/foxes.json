@@ -38,10 +38,7 @@
       "channel": "Forest Friends"
     }
   },
-  // ... This pattern repeats for 47 more entries ...
-  // To save space, I am only showing 3, but you can copy/paste
-  // and change the IDs and image numbers to create 50.
-  // Example for entry 50:
+
   {
     "id": 50,
     "name": "Sunset Gaze",

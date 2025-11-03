@@ -1,8 +1,11 @@
+// test/image-api.test.js
 import { html } from 'lit';
 import { fixture, expect } from '@open-wc/testing';
-import '../what-the-fox-say.js';
 
-describe('WhatTheFoxSay', () => {
+// Import the component
+import '../image-api.js';
+
+describe('ImageApi', () => {
   it('loads and displays the gallery grid', async () => {
     // Mock the fetch call
     globalThis.fetch = async () => ({
@@ -12,7 +15,6 @@ describe('WhatTheFoxSay', () => {
           id: 1,
           name: 'Test Fox',
           dateTaken: '2025-10-01T08:30:00Z',
-          thumbnailSource: 'https://randomfox.ca/images/1.jpg',
           fullSizeSource: 'https://randomfox.ca/images/1.jpg',
           author: {
             name: 'Test Author',
@@ -24,8 +26,9 @@ describe('WhatTheFoxSay', () => {
       ],
     });
 
+    // Use the correct tag <image-api>
     const el = await fixture(
-      html`<what-the-fox-say data-source="./api/foxes.json"></what-the-fox-say>`
+      html`<image-api data-source="./api/foxes.json"></image-api>`
     );
     
     // Wait for component to update after fetch
@@ -41,7 +44,7 @@ describe('WhatTheFoxSay', () => {
 
   it('passes accessibility audit', async () => {
     const el = await fixture(
-      html`<what-the-fox-say data-source="./api/foxes.json"></what-the-fox-say>`
+      html`<image-api data-source="./api/foxes.json"></image-api>`
     );
     await el.updateComplete;
     await expect(el).to.be.accessible();

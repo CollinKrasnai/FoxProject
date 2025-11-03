@@ -19,7 +19,7 @@ export default {
     /** Enable using HTML as rollup entrypoint */
     html({
       minify: true,
-      input: 'index.html', // Point to the demo file
+      input: 'index.html', // Point to the index file
     }),
     /** Resolve bare module imports */
     nodeResolve(),

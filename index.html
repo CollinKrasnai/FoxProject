@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>what-the-fox-say</title>
+    <title>What The Fox Say</title>
     <style>
       body {
         margin: 0;
@@ -11,16 +11,19 @@
         background-color: #f4f4f4;
       }
       
-      /* Simple dark mode for the page itself */
       @media (prefers-color-scheme: dark) {
         body {
           background-color: #121212;
         }
       }
     </style>
-    <script type="module" src="./what-the-fox-say.js"></script>
+    
+    <script type="module" src="./image-api.js"></script>
+
   </head>
   <body>
-    <what-the-fox-say data-source="./api/foxes.json"></what-the-fox-say>
+
+    <image-api data-source="./api/foxes.json"></image-api>
+
   </body>
 </html>

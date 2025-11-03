@@ -11,7 +11,7 @@ export default {
     chunkFileNames: '[hash].js',
     assetFileNames: '[hash][extname]',
     format: 'es',
-    dir: 'dist', // Changed from 'public' to 'dist' which is more standard
+    dir: 'dist', 
   },
   preserveEntrySignatures: false,
 
@@ -19,7 +19,7 @@ export default {
     /** Enable using HTML as rollup entrypoint */
     html({
       minify: true,
-      input: 'demo/index.html', // Point to your demo file
+      input: 'demo/index.html', // Point to the demo file
     }),
     /** Resolve bare module imports */
     nodeResolve(),

@@ -1,21 +1,26 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fox Gallery - Check-in 1</title>
-  <style>
-    body {
-      background-color: #f4f4f4;
-      margin: 0;
-    }
-  </style>
-  
-  <script type="module" src="./fox-gallery.js"></script>
-</head>
-<body>
-
-  <fox-gallery></fox-gallery>
-
-</body>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>what-the-fox-say</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      
+      /* Simple dark mode for the page itself */
+      @media (prefers-color-scheme: dark) {
+        body {
+          background-color: #121212;
+        }
+      }
+    </style>
+    <script type="module" src="./what-the-fox-say.js"></script>
+  </head>
+  <body>
+    <what-the-fox-say data-source="./api/foxes.json"></what-the-fox-say>
+  </body>
 </html>

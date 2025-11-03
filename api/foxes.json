@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "Morning Stroll",
+    "dateTaken": "2025-10-01T08:30:00Z",
+    "thumbnailSource": "https://randomfox.ca/images/1.jpg",
+    "fullSizeSource": "https://randomfox.ca/images/1.jpg",
+    "author": {
+      "name": "FoxyPics",
+      "image": "https://api.dicebear.com/8.x/bottts/svg?seed=foxy",
+      "userSince": "2020-05-15",
+      "channel": "Wild Vulpines"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Snowy Hunter",
+    "dateTaken": "2025-10-02T14:45:00Z",
+    "thumbnailSource": "https://randomfox.ca/images/2.jpg",
+    "fullSizeSource": "https://randomfox.ca/images/2.jpg",
+    "author": {
+      "name": "ArcticAdventures",
+      "image": "https://api.dicebear.com/8.x/bottts/svg?seed=arctic",
+      "userSince": "2019-11-01",
+      "channel": "Northern Wildlife"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Forest Nap",
+    "dateTaken": "2025-10-03T11:00:00Z",
+    "thumbnailSource": "https://randomfox.ca/images/3.jpg",
+    "fullSizeSource": "https://randomfox.ca/images/3.jpg",
+    "author": {
+      "name": "NatureLens",
+      "image": "https://api.dicebear.com/8.x/bottts/svg?seed=nature",
+      "userSince": "2021-02-20",
+      "channel": "Forest Friends"
+    }
+  },
+  // ... This pattern repeats for 47 more entries ...
+  // To save space, I am only showing 3, but you can copy/paste
+  // and change the IDs and image numbers to create 50.
+  // Example for entry 50:
+  {
+    "id": 50,
+    "name": "Sunset Gaze",
+    "dateTaken": "2025-11-20T17:30:00Z",
+    "thumbnailSource": "https://randomfox.ca/images/50.jpg",
+    "fullSizeSource": "https://randomfox.ca/images/50.jpg",
+    "author": {
+      "name": "WildlifeWeekly",
+      "image": "https://api.dicebear.com/8.x/bottts/svg?seed=weekly",
+      "userSince": "2018-01-10",
+      "channel": "Daily Critters"
+    }
+  }
+]

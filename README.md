@@ -10,17 +10,6 @@ This project fetches 50 random dog images from the `dog.ceo` API and enriches th
 
 *(Replace the link above with your final Vercel deployment URL)*
 
----
-
-| Light Mode | Dark Mode |
-| :---: | :---: |
-| `` | `
-
-[Image of Dark Mode]
-` |
-
----
-
 ## Features
 
 * **Modern Web Components:** Built with [Lit](https://lit.dev/) for fast, lightweight components (`<image-api>` and `<dog-card>`).

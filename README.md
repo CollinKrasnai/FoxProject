@@ -12,10 +12,6 @@ This project fetches 50 random dog images from the `dog.ceo` API and enriches th
 
 ---
 
-## Screenshots
-
-*(It's highly recommended to add screenshots of your finished project here!)*
-
 | Light Mode | Dark Mode |
 | :---: | :---: |
 | `` | `
@@ -36,38 +32,6 @@ This project fetches 50 random dog images from the `dog.ceo` API and enriches th
 * **Clipboard Fallback:** On desktop, the share button copies the image link directly to the user's clipboard.
 * **Performance Optimized:** Images are lazy-loaded as they enter the viewport using the `IntersectionObserver` API to ensure fast initial page loads.
 
----
-
-## Running Locally
-
-To run this project on your local machine, you will need [Node.js](https://nodejs.org/) installed.
-
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/YOUR_USERNAME/FoxProject.git](https://github.com/YOUR_USERNAME/FoxProject.git)
-    ```
-    *(Replace with your repository's URL)*
-
-2.  **Navigate to the project folder:**
-    ```bash
-    cd FoxProject
-    ```
-
-3.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-4.  **Run the Vercel development server:**
-    This command will run your project just as it would on Vercel, including the `/api` serverless function.
-    ```bash
-    vercel dev
-    ```
-
-5.  **Open the site:**
-    Your project will be available at `http://localhost:3000`.
-
----
 
 ## Scripts
 

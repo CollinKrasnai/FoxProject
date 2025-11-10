@@ -1,14 +1,12 @@
 # Dog Gallery Project
 
-A responsive, "Instagram-style" photo gallery built with Lit web components. This project fulfills the requirements for [**Your Course Name Here, e.g., IST 256**] by demonstrating a complete front-to-back web application.
+A responsive, "Instagram-style" photo gallery built with Lit web components.
 
 This project fetches 50 random dog images from the `dog.ceo` API and enriches them with mock author and metadata via a custom Vercel serverless function (`/api`) to simulate a real-world, complex API.
 
 ### Live Demo
 
-[**https://your-project-name.vercel.app**](https://your-project-name.vercel.app)
-
-*(Replace the link above with your final Vercel deployment URL)*
+fox-project-mocha.vercel.app
 
 ## Features
 

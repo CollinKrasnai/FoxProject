@@ -133,7 +133,7 @@ class FoxCard extends LitElement {
         console.error('Error sharing:', err);
       }
     } else {
-      alert('Share not supported. Copy link: ' + this.foxData.fullSizeSource);
+      alert('Copy link: ' + this.foxData.fullSizeSource);
     }
   }
   

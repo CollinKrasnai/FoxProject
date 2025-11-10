@@ -6,7 +6,7 @@ This project fetches 50 random dog images from the `dog.ceo` API and enriches th
 
 ### Live Demo
 
-fox-project-mocha.vercel.app
+[fox-project-mocha.vercel.app](https://dog-project-gallery-awesome.vercel.app/)
 
 ## Features
 
